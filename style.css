@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* barra navigazione */
+#navigatore{   
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+    position: fixed;
+    background-color: white;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo-small{
+    display: inline-block;
+    padding: 1.2%;
+    margin-right: 2%;
+}
+
+#link_nav{
+    display: inline-block;
+    width: 80%;
+}
+
+.nav_principale{
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.nav_principale li{
+    text-decoration: none;
+    display: inline;
+    margin-right: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav_sinistra{
+    float: right;
+}
+
+.button {
+    background-color: #0061ff;
+    padding: 10px;
+    display: inline-block;
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
+#primo_bottone{
+    margin: 1.2%;
+    float: right;
+}
+
+/* inizio jumbotroll */
+#jumbotroll{
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 80vh;
+    margin-top: 5%;
+}
+
+#jumbotroll h1{
+    padding: 5% 5% 2% 5%;
+    font-size: 80px;
+}
+
+#text_jumbotroll{
+    width: 30%;
+    margin: 0 2% 0 5%;
+    float: left;
+    font-size: 30px;
+}
+
+.spazio{
+    margin-bottom: 20px;
+}
+
+#img_jubotroll{
+    height: 60%;
+    width: 60%;
+    float: left;
+}
+
+#img_jubotroll img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+#annulla a{
+    text-decoration: none;
+    color: black;
+}
+
+/* sezione offerte */
+
+.conteiner{
+    width: 70%;
+    margin: auto;
+}
+
+#offerte{
+    margin-top: 25%;
+    font-size: 20px;
+}
+
+#offerte h1{
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.fattura{
+    display: inline-block;
+    margin: 0 20px 50px 0;
+    
+}
+
+.fattura input{
+    margin-right: 10px;
+}
+ 
+
+    /* inizio colonne  */
+
+#offerte h1{
+    margin-bottom: 20px;
+}
+
+
+.colonna_offerte{
+    width: calc(100% / 3 - 20px);
+    float: left;
+    border: solid 1px gray;
+    height: 1250px;
+}
+
+#inmezzo{
+    margin: 0 30px;
+}
+
+.titolo_colonna{
+    text-align: center;
+    border-bottom: solid 1px gray;
+    padding: 10px;
+}
+
+.corpo_colonna_sup{
+    margin: 50px;
+}
+
+.periodo{
+    color: gray;
+    margin: 25px 0 50px 0;
+}
+
+ .corpo_colonna_sup td{
+    padding-bottom: 50px;
+
+}
+
+.button_colonna{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.elenco_margin div{
+    display: inline-block;
+    width: 85%;
+}
+
+.oppure{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.corpo_colonna_sup hr{
+    width: 30%;
+    margin-bottom: 50px;
+
+}
+
+/* colonna parte inferiore */
+.corpo_colonna_inf{
+    margin: 50px;
+}
+
+#v{
+    color: blue;
+}
+
+.corpo_colonna_inf ul{
+    list-style-image: url(img/check-v.bmp);
+    margin-top: 35px;
+}
+.corpo_colonna_inf li{
+    margin-bottom: 20px;
+}
+
+/* sezione enterprice */
+
+#enterprice{
+    margin-top: 5vh;
+    border: solid 1px gray;
+    font-size: 20px;
+}
+
+ #cont_a{
+    padding: 3%;
+    padding-bottom: 150px;
+ }
+.cont{
+    float: left;
+}
+ .cont h1{
+     margin-bottom: 3%;
+ }
+
+ .cont p{
+     margin-top: 2.5%;
+ }
+
+#cont_b{
+    padding-right: 50px;
+    padding-left: 50px;
+}
