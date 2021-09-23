@@ -205,6 +205,7 @@ li a{
 .corpo_colonna_inf ul{
     list-style-image: url(img/check-v.bmp);
     margin-top: 35px;
+    margin-left: 25px;
 }
 .corpo_colonna_inf li{
     margin-bottom: 20px;
