@@ -145,10 +145,10 @@ li a{
     width: calc(100% / 3 - 20px);
     float: left;
     border: solid 1px gray;
-    height: 1250px;
+    min-height: 1300px;
 }
 
-#inmezzo{
+.inmezzo{
     margin: 0 30px;
 }
 
@@ -193,13 +193,13 @@ li a{
 
 }
 
+.oppure a{
+    color: #0061ff;
+}
+
 /* colonna parte inferiore */
 .corpo_colonna_inf{
     margin: 50px;
-}
-
-#v{
-    color: blue;
 }
 
 .corpo_colonna_inf ul{
@@ -238,7 +238,8 @@ li a{
 /* sezione partner */
 
 #partner{
-    margin-top:5%;
+    margin-top:10%;
+    margin-bottom: 10%;
 }
 
 #form_foto{
@@ -290,4 +291,71 @@ li a{
 #partner_d a{
     color: black;
     text-decoration: none;
+}
+
+/* operazioni */
+
+#business h1{
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+
+.card{
+    width: calc(100% / 3 - 20px);
+    float: left;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.cont_img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+   
+}
+
+.cont_img img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.card h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.card p{
+    font-size: 25px;
+}
+
+
+#color_link{
+    color: #0061ff;
+}
+
+
+/* designit */
+
+#designit{
+    margin-top: 5%;
+}
+
+.column{
+    width: 30%;
+    height: 500px;
+    background-color: brown;
+    border: solid 1px black;
+    float: left;
+}
+
+#column_center{
+    width: 40%;
+}
+
+.box{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    border: solid 1px black;
+    float: left;
 }
