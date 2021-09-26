@@ -55,6 +55,48 @@ li a{
     float: right;
 }
 
+/* tendine menù */
+
+.nav_principale li{
+    position: relative;
+ 
+}
+
+.menu_supporto_a{
+    float: none;
+    position: absolute;
+    width: 180px;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid black;
+    display: none;
+    z-index: 9999;
+    padding: 0 10px 10px 10px;
+    
+}
+
+.menu_supporto_a li{
+    margin-bottom: 10px;
+    display: block;
+    top: 15px;
+}
+
+#menu_supporto_:hover .menu_supporto_a{
+    display: block;
+}
+
+#menu_contatta:hover .menu_supporto_a{
+    display: block;
+}
+
+#menu_contatta_a{
+    margin-left: 80px;
+}
+
+
+
+/* fine tendine menù */
+
 .button {
     background-color: #0061ff;
     padding: 10px;
@@ -536,6 +578,7 @@ li a{
 
 .row_domande{
     margin: 35px 0;
+    cursor: pointer;
 }
 
 .testo_domande{
@@ -548,8 +591,27 @@ li a{
     float: right;
     transform: scale(1.5);
     margin-right: 40px;
+}
+
+
+
+/* descrizioni a scomparsa */
+
+.p_domande {
+    margin: 2% 0 2% 0;
+    font-weight: 200;
+    width: 70%;
+    display: none;
 
 }
+
+.conteiner_row:hover .p_domande{
+    display: block;    
+
+}
+
+
+
 
 /* footer */
 
