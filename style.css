@@ -15,6 +15,7 @@ body{
     z-index: 999;
     position: fixed;
     background-color: white;
+    min-width: 1450px;
 }
 
 .clearfix::after{
@@ -77,6 +78,7 @@ li a{
     width: 100%;
     height: 850px;
     margin-top: 5%;
+    min-width: 1700px;
 }
 
 #jumbotroll h1{
@@ -133,6 +135,7 @@ li a{
 /* sezione offerte */
 #offerte{
     margin-top: 25%;
+    min-width: 1250px;
 }
 
 #offerte h1{
@@ -256,8 +259,10 @@ li a{
 /* sezione enterprice */
 
 #enterprice{
-    margin-top: 5vh;
+    margin-top: 50px;
+    width: 100%;
     border: solid 1px gray;
+    min-width: 1250px;
 }
 
  #cont_a{
@@ -392,6 +397,7 @@ li a{
 
 #membri_team{
     margin-top: 5%;
+    min-width: 1450px;
 }
 
 .column{
@@ -497,6 +503,7 @@ li a{
 
 #porta_dropbox{
     height: 340px;
+    min-width: 1450px;
     background-color: #b4d0e7;
     padding: 6% 17% 0 15%;
 }
@@ -525,8 +532,7 @@ li a{
 /* domande */
 
 #domande{
-    height: 80vh;
-    margin: 8% 15% 0 15%;
+    margin: 8% 15% 10% 15%;
 }
 
 #domande h1{
